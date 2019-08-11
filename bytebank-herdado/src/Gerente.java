@@ -1,5 +1,5 @@
-//Gerente herda atributos de funcionário
-public class Gerente extends Funcionario{
+
+public class Gerente extends Funcionario implements Autenticavel{
 
 	private int senha;
 	
@@ -20,6 +20,6 @@ public class Gerente extends Funcionario{
 	
 	//reescrita na classe que herda. Mesma assinatura de método	
 	public double getBonificacao(){
-		return super.getSalario();
+		return 50;
 	}	
 }

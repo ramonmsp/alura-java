@@ -4,6 +4,7 @@ public class TesteGerente {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Gerente g1 = new Gerente();
+		Autenticavel referencia = new Gerente();
 		
 		g1.setNome("Marco");
 		g1.setCpf("123543657");
