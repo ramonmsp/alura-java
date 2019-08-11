@@ -20,6 +20,6 @@ public class Gerente extends Funcionario{
 	
 	//reescrita na classe que herda. Mesma assinatura de método	
 	public double getBonificacao(){
-		return super.getBonificacao() + super.getSalario();
+		return super.getSalario();
 	}	
 }
