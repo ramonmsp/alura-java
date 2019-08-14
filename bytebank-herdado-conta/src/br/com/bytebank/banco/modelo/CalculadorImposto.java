@@ -1,4 +1,4 @@
-
+package br.com.bytebank.banco.modelo;
 public class CalculadorImposto {
 	
 	public double totalImposto;
