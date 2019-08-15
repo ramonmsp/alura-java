@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.Reader;
 
 public class TesteLeitura { 
 
@@ -14,7 +15,7 @@ public class TesteLeitura {
 		//fluxo de entrada com um arquivo.
 		
 		InputStream file = new FileInputStream("lorem.txt");
-		InputStreamReader isr = new InputStreamReader(file);
+		Reader isr = new InputStreamReader(file);
 		BufferedReader buffer = new BufferedReader(isr);
 		
 		String linha = buffer.readLine();
